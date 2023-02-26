@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* body
+------------------------------------------------------------------------------- */
+
+body {
+  margin: 0 auto;
+  background: #f8f8f8;
+}
+
+/* header
+------------------------------------------------------------------------------- */
+
+header {
+  width: 100%;
+  height: 64px;
+  box-shadow: 2px 2px 4px lightgray;
+  background-color: orange;
+}
+
+/* main
+------------------------------------------------------------------------------- */
+
+main {
+  width: 100%;
+}
+
+.input-form form {
+  margin: 0 auto;
+  border: 2px solid lightgray;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 40px;
+  /* margin-bottom: 40px; */
+  box-shadow: 4px 4px 4px lightgray;
+}
+
+.form_contents {
+  margin: 30px 25px;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 2px solid orange;
+  font-size: 20px;
+}
+
+label {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.handlename,
+.title,
+.comments {
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+/* ボタン
+------------------------------------------------------------------------------------- */
+.button {
+  text-align: center;
+}
+
+.submit_button {
+  border: 1px solid gray;
+  padding: 6px 40px 4px 40px;
+  color: white;
+  background-color: orange;
+  border-radius: 5px;
+  border-bottom: 2px solid gray;
+  width: 200px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.input_form {
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  width: 100%;
+  background-color: #fbfbfb;
+  border: 3px #ebebeb solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.input_form h1 {
+ 
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-left: 4px red solid;
+  background-color: #fbfbfb;
+  padding: 5px 0 5px 15px;
+  width: 300px;
+  font-size: 20px;
+}
+
+.input_form div {
+  padding: 15px;
+}
+
+.text,
+textarea {
+  border: 1px solid #dfdfdf;
+  padding: 5px;
+  color: #999;
+  background: #fff;
+}
+
+.input_form .submit {
+  border: 1px solid lightgray;
+  padding: 4px 10px;
+  color: white;
+  background-color: darkgray;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+} */

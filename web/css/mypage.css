@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+/* body
+------------------------------------------------------------------------------- */
+body {
+  margin: 0 auto;
+  background: #f8f8f8;
+}
+
+/* header
+------------------------------------------------------------------------------- */
+
+header {
+  width: 100%;
+  height: 64px;
+  box-shadow: 2px 2px 4px lightgray;
+  background-color: orange;
+}
+
+
+/* main
+------------------------------------------------------------------------------- */
+
+main {
+  clear: right;
+  width: 100%;
+}
+
+/* 会員情報
+----------------------------------------------------------------------------------- */
+.confirm {
+  margin: 0 auto;
+  background: #fbfbfb;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  width: 450px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding: 20px;
+  box-shadow: 4px 4px 4px lightgray;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 2px solid orange;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.profile_pic {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.profile_pic img {
+  width: 120px;
+  
+}
+
+.basic_info {
+  display: inline-block;
+  margin: 0;
+  margin-left: 20px;
+}
+
+/* ボタン
+--------------------------------------------------------------------- */
+.buttons {
+  text-align: center;
+  
+}
+
+.buttons form {
+  display: inline-block;
+}
+
+.return_button {
+  border: 1px solid lightgray;
+  padding: 6px 10pz 4px 10px;
+  color: white;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+  width: 140px;
+  font-size: 15px;
+  background-color: #bfbfbf;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.edit_button {
+  border: 1px solid lightgray;
+  padding: 6px 10pz 4px 10px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 5px;
+  border-bottom: solid 2px gray;
+  width: 140px;
+  font-size: 15px;
+  background-color: orange;
+}
+
+
+/* 口コミ一覧
+---------------------------------------------------------------------------- */
+.review {
+  width: 600px;
+  margin: 0px auto 30px;
+}
+
+.review h3 {
+  text-align: center;
+}
+
+.reviews {
+  margin: 0 auto;
+  background: #fbfbfb;
+  border: 1.5px solid lightgray;
+  border-radius: 10px;
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+.title-time {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed black;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+
+.title-time h3 {
+  margin: 0;
+  font-size: 18px;
+  padding: 8px 2px 2px 4px;
+}
+
+.review-sub {
+  display: inline-block;
+}
+
+.update_time {
+  text-align: right;
+  color: rgba(130, 126, 126, 0.936);
+  font-size: 14px;
+  padding: 2px;
+}
+
+.handlename {
+  color: rgba(130, 126, 126, 0.936);
+  font-size: 14px;
+  padding: 2px;
+}
+
+.comments {
+  text-align: left;
+  height: 100px;
+  padding: 4px;
+}
+
+.anchor-wrapper a {
+  color: darkblue;
+  text-decoration: none;
+  border-bottom: 1.2px solid darkblue;
+  padding-bottom: -4px;
+  font-size: 17px;
+}
+

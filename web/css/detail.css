@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* 共通部分
+------------------------------------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* body
+------------------------------------------------------------------------------- */
+body {
+  margin: 0;
+}
+
+/* header
+------------------------------------------------------------------------------- */
+
+header {
+  height: 64px;
+  width: 100%;
+  background-color: orange;
+  padding: 0;
+}
+
+header li {
+  list-style: none;
+}
+
+header a {
+  text-decoration-line: none;
+  color: white;
+}
+
+.logo img {
+  float: left;
+  height: 50px;
+  width: 150px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.select_list ul {
+  float: right;
+  padding-right: 20px;
+}
+
+.select_list li {
+  float: left;
+  line-height: 64px;
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+
+/* main
+------------------------------------------------------------------------------- */
+
+main {
+  width: 100%;
+}
+
+.main-wrapper {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.content-item img {
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px lightgray;
+}
+
+.content-item h4 {
+  margin: 15px 0;
+}
+
+.content-item span {
+  background: linear-gradient(transparent 50%, rgba(255, 165, 0, 0.5) 50%);
+}
+
+.item-name {
+  margin: 0;
+  margin-top: 10px;
+}
+
+.explain-wrapper {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.explain-wrapper p {
+  margin: 0;
+  margin: 10px 10px 10px 15px;
+  text-decoration: underline solid orange 1px;
+  text-align: left;
+} 
+
+
+/* 口コミ一覧
+----------------------------------------------------------------------- */
+
+.review-wrapper {
+  margin-top: 50px;
+}
+
+.review-header {
+  margin-bottom: 48px;
+}
+
+.review-header h5 {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.review-anchor {
+  text-align: right;
+  margin: 0 140px 10px 0;
+  display: flex;
+  float: right;
+}
+
+.icon {
+  color: darkblue;
+  margin-right: 6px;
+}
+
+.review-anchor a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.lists {
+  margin: 0;
+}
+
+.reviews {
+  margin: 0 auto;
+  background: #fbfbfb;
+  border: 1.5px solid lightgray;
+  border-radius: 10px;
+  width: 450px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+.title-time {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed black;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+}
+
+.title-time h3 {
+  margin: 0;
+  font-size: 18px;
+  padding: 8px 2px 2px 4px;
+}
+
+.review-sub {
+  display: inline-block;
+}
+
+.update_time {
+  text-align: right;
+  color: rgba(130, 126, 126, 0.936);
+  font-size: 14px;
+  padding: 2px;
+}
+
+.handlename {
+  color: rgba(130, 126, 126, 0.936);
+  font-size: 14px;
+  padding: 2px;
+}
+
+.comments {
+  text-align: left;
+  height: 100px;
+  padding: 4px;
+}
+
+.anchor-wrapper a {
+  color: darkblue;
+  text-decoration: none;
+}
+
